@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void getInfoAboutBook(View view) {
         Intent intent = new Intent(this, ShareActivity.class);
-        intent.putExtra(KEY, "Гарри Поттер");
+        intent.putExtra(KEY, "Сильмариллион");
         activityResultLauncher.launch(intent);
     }
 }

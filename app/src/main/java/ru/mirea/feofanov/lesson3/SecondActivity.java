@@ -15,7 +15,7 @@ public class SecondActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         String value = extras.getString("key");
         String text = (String) getIntent().getSerializableExtra("key");
-        tvOut.setText("квадрат значения моего номера по списку в группе составляет 25, а текущее время "+text);
+        tvOut.setText("квадрат значения моего номера по списку в группе составляет 625, а текущее время "+text);
 
     }
 }
