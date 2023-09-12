@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/brouserFragment"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Brouser" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/dataFragment"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Data" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@android:drawable/ic_lock_silent_mode_off"
+            android:title="Music" />
+        <item
+            android:id="@+id/camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="?android:attr/listChoiceIndicatorMultiple"
+            android:title="Sensor" />
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="Record" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Map" />
+    </group>
+</menu>

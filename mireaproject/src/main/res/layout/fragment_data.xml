@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="125dp"
+        android:layout_height="84dp"
+        android:text="Напрваления танцев"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btndances"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Информация"
+        android:textColor="#E10808"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:strokeColor="#000000" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="615dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndances"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ballet"
+                    tools:src="@drawable/ballet" />
+
+                <TextView
+                    android:id="@+id/tvballet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Бале́т (фр. ballet, от итал. ballare — танцевать) — вид сценического искусства; спектакль, содержание которого воплощается в музыкально-хореографических образах. В основе классического балетного спектакля лежит определённый сюжет, драматургический замысел, либретто, в XX веке появился бессюжетный балет, драматургия которого основана на развитии, заложенном в музыке. Основными видами танца в балете являются классический танец и характерный танец, к которому, начиная с XIX века, относятся народные и национальные танцы, переработанные для исполнения в балетном спектакле. Немаловажную роль играет пантомима, с помощью которой актёры передают чувства героев, их «разговор» между собой, суть происходящего, а во многих спектаклях — также и гротеск." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ballroom_dance"
+                    tools:src="@drawable/ballroom_dance" />
+
+                <TextView
+                    android:id="@+id/tvballroom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Спортивно-бальные танцы — группа различных парных танцев, которые делятся на 2 направления, латину и стандарт, некоторые из которых имеют народные истоки. Исполнялись на балах, которые проводились в помещениях, застеленных паркетом. Из огромного разнообразия как элитных (историко-бытовых), так и народных танцев в группу бальных попали танцы, характеризующиеся 2 признаками: все бальные танцы являются парными; пару составляют мужчина и женщина, но есть исключения, так как в Англии уже принято танцевать в однополых составах.[источник не указан 94 дня]  Под «бальными танцами» в настоящее время подразумевают словосочетания «спортивные танцы» (СБТ, «спортивные бальные танцы») и «танцевальный спорт». Это отображено в названиях различных танцевальных организаций, например: «Московская федерация спортивного танца» или «Московская федерация танцевального спорта». " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/estrad_dance"
+                    tools:src="@drawable/estrad_dance" />
+
+                <TextView
+                    android:id="@+id/tvestrad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Эстрадный танец — это танцевальный жанр, который вмещает в себя все виды, стили, направления танца, так же акробатику, пантомиму. Эстрадный номер может быть основан на хореографической лексике современного танца, классического, народного, бального, бытового танца и т. д. Эстрадному танцу свойственна синтетичность выразительных средств хореографии, режиссуры, вокала, музыки, света, сценографии, декорации, костюмов, различных технических эффектов. Именно эта его особенность стала основой для возникновения нового направления в эстраде — шоу.  Один из принципов, свойственных современному эстрадному танцу, является импровизация. Исполнитель должен творчески подходить к танцу, суметь выразить себя и свое состояние путем танца. Его индивидуальность играет большую роль. Это неудивительно, ведь эстрадный танец — это не просто последовательность заученных движений, это небольшая танцевальная постановка. И исполнитель должен обладать не только танцевальным, но и актерским талантом." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/modern_dance"
+                    tools:src="@drawable/modern_dance" />
+
+                <TextView
+                    android:id="@+id/tvmodern"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Танец модерн — одно из направлений современной зарубежной хореографии, зародившееся в кон. XIX — нач. XX веков в США и Германии. Термин «Танец модерн» появился в США для обозначения сценической хореографии, отвергающей традиционные балетные формы. Войдя в употребление, вытеснил другие термины (свободный танец, дунканизм, танец босоножек, ритмопластический танец, выразительный, экспрессионистский, абсолютный, новый художественный), возникавшие в процессе развития этого направления. Общим для представителей танца модерн, независимо от того, к какому течению они принадлежали и в какой период провозглашали свои эстетические программы, было намерение создать новую хореографию, отвечавшую, по их мнению, духовным потребностям человека XX века. Основные её принципы: отказ от канонов, воплощение новых тем и сюжетов оригинальными танцевально-пластическими средствами. В стремлении к полной независимости от традиций представители Т.м. пришли, в конце концов, к принятию отдельных технических приёмов, в противоборстве с которыми зародилось новое направление. Установка на полный отход от традиционных балетных форм на практике не смогла быть до конца реализована." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/folk"
+                    tools:src="@drawable/folk" />
+
+                <TextView
+                    android:id="@+id/tvfolk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Народный танец — фольклорный бытовой танец, который исполняется в своей естественной среде и имеет определённые традиционные для данной местности движения, ритмы, костюмы и тому подобное. Фольклорный танец — стихийное проявление чувств, настроения, эмоций, выполняется в первую очередь для себя, а потом — для зрителя (общества, группы).В народно-сценическом танце профессиональное искусство эстетизирует фольклор, приукрашивает его (а иногда, намеренно огрубляет), в целом, — усложняет, модифицирует. Танцовщики и хореографы стремятся показать своё мастерство, привлечь внимание публики сюжетными сценическими композициями[1]. Для творчества профессиональных ансамблей народного танца характерна сценическая обработка — создание новых художественных произведений на основе традиционных танцев, которые не основываются целиком на фольклорном материале и не являются подлинниками народного искусства." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/street"
+                    tools:src="@drawable/street" />
+
+                <TextView
+                    android:id="@+id/tvwk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Уличный танец (англ. street dance) — танцевальный стиль, который развивался вне танцевальной студии, в любом доступном открытом пространстве, например на улицах, танцевальных вечерниках, в парках, школьных дворах и ночных клубах. Этот термин используется для описания местных танцев в городском понимании. Эти танцы являются импровизацией и носят социальный характер, поощряя взаимодействие между зрителями и выступающими танцорами. Подобные танцы являются частью местной культуры того географического района, где они были созданы. Примером уличных танцев может послужить брейк-данс, который был зарожден в Нью-Йорке." />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

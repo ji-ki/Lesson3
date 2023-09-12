@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986248877246",
+    "project_id": "lesson3mireaproject",
+    "storage_bucket": "lesson3mireaproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986248877246:android:6a5f70b97af4242e53faef",
+        "android_client_info": {
+          "package_name": "ru.mirea.gilyazoivaer.mireaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986248877246-a7pvjl6rmqm7mn88qe4f9abjnidfmf3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3O2ieGSzxQfofcNDHxu3YInzbAImZC4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986248877246-a7pvjl6rmqm7mn88qe4f9abjnidfmf3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
